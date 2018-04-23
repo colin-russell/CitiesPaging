@@ -13,6 +13,9 @@
 		3BCB54BF208E212800C5362F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCB54BE208E212800C5362F /* Assets.xcassets */; };
 		3BCB54C2208E212800C5362F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCB54C0208E212800C5362F /* LaunchScreen.storyboard */; };
 		3BCB54C5208E212800C5362F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCB54C4208E212800C5362F /* main.m */; };
+		3BCB54CE208E24BF00C5362F /* montreal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCB54CB208E24BE00C5362F /* montreal.jpg */; };
+		3BCB54CF208E24BF00C5362F /* chicago.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCB54CC208E24BF00C5362F /* chicago.jpg */; };
+		3BCB54D0208E24BF00C5362F /* toronto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCB54CD208E24BF00C5362F /* toronto.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		3BCB54C1208E212800C5362F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BCB54C3208E212800C5362F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BCB54C4208E212800C5362F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BCB54CB208E24BE00C5362F /* montreal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = montreal.jpg; sourceTree = "<group>"; };
+		3BCB54CC208E24BF00C5362F /* chicago.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chicago.jpg; sourceTree = "<group>"; };
+		3BCB54CD208E24BF00C5362F /* toronto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toronto.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,9 @@
 				3BCB54C0208E212800C5362F /* LaunchScreen.storyboard */,
 				3BCB54C3208E212800C5362F /* Info.plist */,
 				3BCB54C4208E212800C5362F /* main.m */,
+				3BCB54CC208E24BF00C5362F /* chicago.jpg */,
+				3BCB54CB208E24BE00C5362F /* montreal.jpg */,
+				3BCB54CD208E24BF00C5362F /* toronto.jpg */,
 			);
 			path = CitiesPaging;
 			sourceTree = "<group>";
@@ -129,8 +138,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BCB54C2208E212800C5362F /* LaunchScreen.storyboard in Resources */,
+				3BCB54D0208E24BF00C5362F /* toronto.jpg in Resources */,
+				3BCB54CE208E24BF00C5362F /* montreal.jpg in Resources */,
 				3BCB54BF208E212800C5362F /* Assets.xcassets in Resources */,
 				3BCB54BD208E212600C5362F /* Main.storyboard in Resources */,
+				3BCB54CF208E24BF00C5362F /* chicago.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
